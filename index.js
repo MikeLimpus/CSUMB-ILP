@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const helmet = require("helmet");
-
+const port = process.env.PORT || 3000;
 const courseInfo = require("./course_info.json");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
@@ -64,6 +64,6 @@ app.get("/cst499", (req, res) => {
     res.render("template", {"courseInfo": courseInfo.courses.default}) 
 })
 
-app.listen(3000, "localhost", () => {
+app.listen(port, () => {
     console.log("Server started");
 });
