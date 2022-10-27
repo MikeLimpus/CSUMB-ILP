@@ -1,0 +1,75 @@
+{
+    "courses": {
+        "cst300": {
+            "shortName": "CST300",
+            "longName": "CST 300 - Major Proseminar",
+            "courseDesc": "This course is designed to assist students in planning their future professions. It is goal oriented, focusing on personal and professional goals, while also analyzing ethics and other important social aspects of the tech field. There are two major essays in the course, as well as two video presentations that are given towards the end of the course. Attached below is one of my essays, the industry analysis paper.",
+            "projects": {
+                "0": {
+                    "name" : "Industry Analysis Essay",
+                    "desc": "This essay was beneficial as it gave me the opportunity to research the jobs and economy of the gaming industry, with a focus on a very interesting company. ",
+                    "mediaHTML": "<iframe src='media/Industry Analysis Paper.pdf#toolbar=0' width='100%' height='70%'></iframe>"
+                },
+                "1" : {
+                    "name": "Ethics Argument Essay", 
+                    "desc": "The other major paper in this course was the ethics argument essay, in which an argument is made for the punishment of individuals who download pirated media. ",
+                    "mediaHTML": "<iframe src='media/Ethics Argument Paper.pdf#toolbar=0' width='100%' height='70%'></iframe>"
+                },
+                "2": {
+                    "name": "Future of Computer Science Education",
+                    "desc": "The team I worked with in this course presented a video about computer science education in which we researched past, present, and future trends in computer science education.",
+                    "mediaHTML": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Fqy0tga9tYI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+                    
+                }
+
+            }
+        },
+        "cst338": {
+            "shortName": "CST338",
+            "longName": "CST 338 - Software Design",
+            "courseDesc": "CST 338 teaches students how to develop large programs using object-oriented programming, teaches about the software life cycle, and provides and introduction to GUI development.",
+            "projects": {
+                "0": {
+                    "name" : "Card Combat",
+                    "desc": "Course Final Project. This was a card game developed in Java using the Swing UI, with all UI elements hard coded rather than using a visual editor. This game utilized the Model-View-Controller method.",
+                    "mediaHTML": "<iframe src='media/CardCombat2.png' width='100%' height='70%'></iframe>"
+                },
+                "1" : {
+                    "name": "Course Catalog - Simple Android App", 
+                    "desc": "This simple Android application was a demonstration of mobile development basics using Android Studio.",
+                    "mediaHTML": "<iframe src='media/CourseCatalog.png' width='100%' height='70%'></iframe>"
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": ""
+                    
+                }
+
+            }
+        },
+        "default": {
+            "shortName": "",
+            "longName": "Page under construction",
+            "courseDesc": "",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        }
+    }
+}

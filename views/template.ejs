@@ -1,0 +1,34 @@
+<%- include('partials/header.ejs') %> 
+</body>
+</html>
+
+<body>
+    <h1>
+        <%= courseInfo.longName %> 
+    </h1>
+    <p>
+        <%= courseInfo.courseDesc %> 
+    </p>
+    <h2><%= courseInfo.projects[0].name %> </h2>
+    
+    <p>
+        <%= courseInfo.projects[0].desc %>  
+    </p>
+    <%- courseInfo.projects[0].mediaHTML%> 
+    <h2><%= courseInfo.projects[1].name %> </h2>
+    
+    <p>
+        <%= courseInfo.projects[1].desc %>  
+    </p>
+    <%-courseInfo.projects[1].mediaHTML%> 
+   
+    <h2><%= courseInfo.projects[2].name %> </h2>
+    
+    <p>
+        <%= courseInfo.projects[2].desc %>  
+    </p>
+    <%-courseInfo.projects[2].mediaHTML%> 
+    <br>
+    <%- include('partials/footer.ejs') %> 
+
+</body>
