@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
-const helmet = require("helmet");
+//const helmet = require("helmet");
 const port = process.env.PORT || 3000;
 const courseInfo = require("./course_info.json");
 app.set("view engine", "ejs");
 app.use(express.static("public"));
-app.use(helmet())
+//app.use(helmet())
 console.log(courseInfo.courses.cst300);
 app.get("/", (req, res) => {
     res.render("index");
