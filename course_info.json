@@ -48,6 +48,258 @@
 
             }
         },
+        "cst363": {
+            "shortName": "CST363",
+            "longName": "CST 363 - Introduction to Database Systems",
+            "courseDesc": "This course provides balanced coverage of database use and design,focusing on relational databases. Students will learn to design relational schemas, write SQL queries, access a DB programmatically,and perform database administration. Students will gain a working knowledge of the algorithms and data structures used in query evaluation and transaction processing. Students will also learn to apply newer database technologies such as XML, NoSQL, and Hadoop.",
+            "projects": {
+                "0": {
+                    "name" : "Project 1 - Database Design",
+                    "desc": "Team Project. Team created a database system for a pharmacy chain. This was a reasonably complex database with 9 tables with multiple foreign keys and relationships. The project asked as to solve multiple problems using SQL queries.",
+                    "mediaHTML": "<embed src='media/cst363_project1.png' width='100%'></embed>"
+                },
+                "1" : {
+                    "name": "Project 2 - Web App and JDBC SQL", 
+                    "desc": "Implements a Spring Boot server based on the database from Project 1. Allows users to create a new prescription, fill prescriptions, and view FDA drug usage reports.",
+                    "mediaHTML": "<embed src='media/cst363_project2_1.png' width='25%'></embed><embed src='media/cst363_project2_2.png' width='25%'></embed><embed src='media/cst363_project2_3.png' width='25%'></embed><embed src='media/cst363_project2_4.png' width='25%'></embed>"
+                },
+                "2": {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+            }
+        },
+        "cst334": {
+            "shortName": "CST334",
+            "longName": "CST 334 - Operating Systems",
+            "courseDesc": "Students in this course will learn about the use and design of modern operating systems, focusing on Linux. On the “use” side, students will learn the Linux command line, to write shell scripts, and to build programs with GNU utilities like awk, sed, and make. On the “design” side, students will develop a deep understanding of process management, memory management, file systems, and concurrency, and how they apply to modern technologies like virtualization and cloud computing. This course focused primarily on theory, so there were not any large projects. Instead, labs will be presented as proof of work. ",
+            "projects": {
+                "0": {
+                    "name" : "Lab 5: Developing multi-threaded applications",
+                    "desc": "Lab demonstrating multithreaded programming to perform matrix multiplication in C.",
+                    "mediaHTML": "<embed src='media/cst_334_lab5.png' width='50%'></embed>"
+                },
+                "1" : {
+                    "name": "Lab 6: Synchronization using semaphores", 
+                    "desc": "Lab demonstrating the use of semaphores to solve the producer-consumer problem.",
+                    "mediaHTML": "<embed src='media/cst_334_lab6.png' width='50%'></embed>"
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst311": {
+            "shortName": "CST311",
+            "longName": "CST 311 - Intro to Computer Networking",
+            "courseDesc": "Survey of Telecomm and Data Comm Technology Fundamentals, Local Area Network, Wide Area Network, Internet and internet working protocols including TCP/IP, network security and performance, emerging industry trends such as voice over the network and high speed networking.",
+            "projects": {
+                "1": {
+                    "name" : "TCP Client-Server",
+                    "desc": "Program in python with which TCP clients and a server machine communicate using mininet. ",
+                    "mediaHTML": "<embed width=100% src=media/cst311_project3.png></embed>"
+                },
+                "0" : {
+                    "name": "UDP Pinger", 
+                    "desc": "Learn about socket programming in Python by sending and receiving datagram packets through UDP",
+                    "mediaHTML": "<embed src=media/cst311_project2.png></embed>"
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst336": {
+            "shortName": "CST336",
+            "longName": "CST 336 - Internet Programming",
+            "courseDesc": "Provides students with dynamic web application development skills, focusing on the integration of server-side programming, database connectivity, and client-side scripting. Coverage includes the Internet architecture, responsive design, RESTful web services, and Web APIs. ",
+            "projects": {
+                "0": {
+                    "name" : "Random Anime Picker",
+                    "desc": "Site that generates a random anime to watch from an external API based on user preference. Uses JQuery to generate page elements.",
+                    "mediaHTML": "<embed src=media/cst336_animepicker_1.png width=100%></embed><embed src=media/cst336_animepicker_2.png width=100%></embed>"
+                },
+                "1" : {
+                    "name": "Sushi On A Roll | Online Food Ordering", 
+                    "desc": "Website which allows users to order food from a menu populated via a local API which grabs menu items from a MySQL database. The user creates an account with a password encrypted with bcrypt. A team project with 3 other members, I handled the creation and population of the menu by writing an API.",
+                    "mediaHTML": "<embed src=media/cst336_sushionaroll.png width=100%></embed>"
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst462": {
+            "shortName": "CST462",
+            "longName": "CST 462S - Race, Gender, Class in the Digital World",
+            "courseDesc": "Provides students with key knowledge of race, gender, class and social justice especially in relation to technology in today's digital world. Students challenge the barriers of expertise, gender, race, class, and location that restrict wider access to and understanding of the production and usage of new technologies. Students will engage in a practical experience in the community via their service placements, which will provide depth and context for considering questions of justice, equality, social responsibilities and the complexities of technology and its societal impact. The course uses scenario based approach combining presentations, discussions, and reflections to allow students explore the relationship between critical reflection and action on the topics mentioned above. ",
+            "projects": {
+                "0": {
+                    "name" : "Research Paper",
+                    "desc": "Research project which surveys the correlation between internet access and quality of education. Interviews conducted with multiple educators to gather first hand experiences.",
+                    "mediaHTML": "<embed src=media/cst462_ResearchPaper.pdf width=100% height='70%'></embed>"
+                },
+                "1" : {
+                    "name": "Service Learning", 
+                    "desc": "Served as a volunteer for the IT Department at Mountains Community Hospital performing simple IT maintenance tasks.",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst328": {
+            "shortName": "CST328",
+            "longName": "CST 328 - Digital Art and Design",
+            "courseDesc": "A survey course that combines the study of technology, design and aesthetic principles as they apply to twenty-first century visual media. Students learn how fundamental concepts of art and design apply to a broad range of commercial, expressive and entertainment forms. Students also study the democratization of the creative process through digital media, using current technology to produce sophisticated and expressive examples of personal digital creativity.",
+            "projects": {
+                "0": {
+                    "name" : "App Design Prototype",
+                    "desc": "Design concept for an iPhone app created with Illustrator and Photoshop",
+                    "mediaHTML": "<embed src=media/cst328_project1_1.jpg width=33%></embed><embed src=media/cst328_project1_2.jpg width=33%></embed><embed src=media/cst328_project1_3.jpg width=33%></embed>"
+                },
+                "1" : {
+                    "name": "Cryptocurrency Trading App Design Prototype", 
+                    "desc": "Design concept for a mobile app for trading cryptocurrency assets. Used Illustrator, Photoshop, and XD",
+                    "mediaHTML": "<embed src=media/cst328_project2_1.jpg width=100%></embed><embed src=media/cst328_project2_2.jpg width=100%></embed>"
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst370": {
+            "shortName": "CST370",
+            "longName": "CST 370 - Design and Analysis of Algorithms",
+            "courseDesc": "Students learn important data structures in computer science and acquire fundamental algorithm design techniques to get the efficient solutions to several computing problems from various disciplines. Topics include the analysis of algorithm efficiency, hash, heap, graph, tree, sorting and searching, brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer, dynamic programming, and greedy programming.            ",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst383": {
+            "shortName": "CST383",
+            "longName": "CST 383 - Introduction to Data Science",
+            "courseDesc": "In data science, data analysis and machine learning techniques are applied to visualize data, understand trends, and make predictions. In this course students will learn how to obtain data, preprocess it, apply machine learning methods, and visualize the results. A student who completes the course will have enough theoretical knowledge, and enough skill with modern statistical programming languages and their libraries, to define and perform complete data science projects.",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst329": {
+            "shortName": "CST329",
+            "longName": "CST 329 - Reasoning with Logic",
+            "courseDesc": "In this course students learn to develop skill in using logic to describe and assess arguments. Students will learn to write formulas in propositional and first-order logic, and more importantly, to write and check proofs. Students will also learn to write formulas in three-valued and modal logic, know how to choose an appropriate logic, and understand the limitations of logic in capturing human reasoning.",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst438": {
+            "shortName": "CST438",
+            "longName": "CST 438 - Software Engineering",
+            "courseDesc": "",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
+        "cst499": {
+            "shortName": "CST499",
+            "longName": "CST 499 - Computer Science Capstone            ",
+            "courseDesc": "Students will work on a project in large groups (up to 5 students in each group), developing requirements specification, a solution plan followed by design and implementation of the solution. The problem statement for the projects will be selected by the faculty. Faculty will also play the role of a project manager directing the schedule and deliverables for these projects.",
+            "projects": {
+                "0": {
+                    "name" : "",
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "1" : {
+                    "name": "", 
+                    "desc": "",
+                    "mediaHTML": ""
+                },
+                "2": {
+                    "name": "",
+                    "desc": "",
+                    "mediaHTML": "" 
+                }
+
+            }
+        },
         "default": {
             "shortName": "",
             "longName": "Page under construction",
