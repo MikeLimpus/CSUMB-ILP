@@ -191,19 +191,19 @@
             "courseDesc": "Students learn important data structures in computer science and acquire fundamental algorithm design techniques to get the efficient solutions to several computing problems from various disciplines. Topics include the analysis of algorithm efficiency, hash, heap, graph, tree, sorting and searching, brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer, dynamic programming, and greedy programming.            ",
             "projects": {
                 "0": {
-                    "name" : "",
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name" : "Merge sort and Quick sort comparison",
+                    "desc": "Homework assignment which implements merge sort and quick sort in Java, and compares the execution speed on large sets of integers.",
+                    "mediaHTML": "<embed src=media/cst370_hw5.png></embed>"
                 },
                 "1" : {
-                    "name": "", 
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name": "Robot Coin Collector", 
+                    "desc": "Homework which solves the robot coin collector problem using dynamic programming",
+                    "mediaHTML": "<embed src=media/cst370_hw6.png></embed>"
                 },
                 "2": {
-                    "name": "",
-                    "desc": "",
-                    "mediaHTML": "" 
+                    "name": "Heap Operations",
+                    "desc": "Constructs a heap using inputted integers, and allows for various operations such as inserting, removing, and displaying values",
+                    "mediaHTML": "<embed src=media/cst370_hw5_1.png></embed>" 
                 }
 
             }
@@ -214,14 +214,14 @@
             "courseDesc": "In data science, data analysis and machine learning techniques are applied to visualize data, understand trends, and make predictions. In this course students will learn how to obtain data, preprocess it, apply machine learning methods, and visualize the results. A student who completes the course will have enough theoretical knowledge, and enough skill with modern statistical programming languages and their libraries, to define and perform complete data science projects.",
             "projects": {
                 "0": {
-                    "name" : "",
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name" : "Project - Predicting Bitcoin Price",
+                    "desc": "Using Pandas, Numpy, Seaborn, and Scikit-Learn, my team created a machine learning model which predicts the price of bitcoin using 30 days of averaged price data, using an API.",
+                    "mediaHTML": "<embed src=media/cst383_final_1.png width=50%></embed><embed src=media/cst383_final_2.png width=50%></embed>"
                 },
                 "1" : {
-                    "name": "", 
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name": "Campaign Exploration", 
+                    "desc": "Homework assignment which demonstrates data processing and visualization using Pandas and Seaborn",
+                    "mediaHTML": "<embed src=media/cst383_hw_1.png width=50%></embed><embed src=media/cst383_hw_2.png width=50%></embed>"
                 },
                 "2": {
                     "name": "",
@@ -237,14 +237,14 @@
             "courseDesc": "In this course students learn to develop skill in using logic to describe and assess arguments. Students will learn to write formulas in propositional and first-order logic, and more importantly, to write and check proofs. Students will also learn to write formulas in three-valued and modal logic, know how to choose an appropriate logic, and understand the limitations of logic in capturing human reasoning.",
             "projects": {
                 "0": {
-                    "name" : "",
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name" : "Propositional Proofs",
+                    "desc": "Some examples of proofs done in the course using propositional logic.",
+                    "mediaHTML": "<embed src=media/cst329_proof_2.png width=33%></embed><embed src=media/cst329_proof_1.png width=33%></embed><embed src=media/cst329_proof_3.png width=33%></embed>"
                 },
                 "1" : {
-                    "name": "", 
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name": "First Order Proofs", 
+                    "desc": "Some examples of proofs done in the course using first order logic.",
+                    "mediaHTML": "<embed src=media/cst329_proof_4.png width=33%></embed><embed src=media/cst329_proof_5.png width=33%></embed><embed src=media/cst329_proof_6.png width=33%></embed>"
                 },
                 "2": {
                     "name": "",
@@ -260,9 +260,9 @@
             "courseDesc": "",
             "projects": {
                 "0": {
-                    "name" : "",
-                    "desc": "",
-                    "mediaHTML": ""
+                    "name" : "Registration Service",
+                    "desc": "Developed a web service using microservice architecture that allows school administrators to add and modify students in a database. Implemented testing using JUnit and Selenium to test the front and back ends. Collaborated with teammate to communicate with a corresponding registration service using a message queue. This project was cumulative throughout the course and represents a large amount of the course work done.",
+                    "mediaHTML": "<embed src='media/cst438_reg.png' width='100%'></embed>"
                 },
                 "1" : {
                     "name": "", 
